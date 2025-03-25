@@ -1,0 +1,28 @@
+[project]
+name = "python-day-trading-lib"
+version = "0.1"
+description = "N/A"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Felix Hallmann"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/FelixHAUD/python-day-trading-lib"
+Changelog = "https://github.com/FelixHAUD/python-day-trading-lib/releases"
+Issues = "https://github.com/FelixHAUD/python-day-trading-lib/issues"
+CI = "https://github.com/FelixHAUD/python-day-trading-lib/actions"
+
+
+[project.optional-dependencies]
+test = ["pytest"]

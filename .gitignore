@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +173,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+venv
+.eggs
+.pytest_cache
+*.egg-info
+.DS_Store
+dist
+build
+>>>>>>> c77e1e7 (Initial structure for library)
